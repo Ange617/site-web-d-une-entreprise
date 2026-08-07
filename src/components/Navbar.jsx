@@ -20,9 +20,12 @@ function Navbar() {
                 >
                     {menuOpen ? <FaTimes /> : <FaBars />}
                 </div>
-                <img src={monLogo} alt="Logo" className="logo" />
-
+                <div class="logo-container">
+                    <img src={monLogo} alt="Logo de l'entreprise" class="logo" />
+                    <h1>METALEX SARL</h1>
+                </div>
                 <ul id="navbar" className={menuOpen ? "active" : ""}>
+                    <li><a href="#acceuil" onClick={() => setMenuOpen(false)}>ACCUEIL</a></li>
                     <li><a href="#" onClick={() => setMenuOpen(false)}>À PROPOS</a></li>
                     <li><a href="#" onClick={() => setMenuOpen(false)}>SERVICES</a></li>
                     <li><a href="#" onClick={() => setMenuOpen(false)}>RÉALISATIONS</a></li>
