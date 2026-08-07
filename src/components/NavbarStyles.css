@@ -1,0 +1,121 @@
+.logo {
+    width: 180px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    /*ceci permet d'enlever les puces*/
+    padding: 0 20px;
+    /*ceci permet de creer des espaces entre les options*/
+    position: relative
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: large;
+    /*la taille de la police*/
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a:active {
+    color: rgb(35, 109, 179)
+}
+
+#navbar li a:hover::after,
+#navbar li a:active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgb(35, 109, 179);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 15px 20px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    #navbar {
+        gap: 15px;
+    }
+
+    #navbar li {
+        padding: 0;
+    }
+
+    #navbar li a {
+        font-size: 14px;
+    }
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+
+    .menu-icon {
+        display: block;
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 280px;
+        height: 100vh;
+
+        background: #000;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        padding: 100px 30px 30px;
+
+        transition: right 0.4s ease;
+        z-index: 999;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+}
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 998;
+}
