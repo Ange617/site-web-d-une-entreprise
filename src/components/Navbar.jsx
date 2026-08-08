@@ -26,7 +26,7 @@ function Navbar() {
                 </div>
                 <ul id="navbar" className={menuOpen ? "active" : ""}>
                     <li><a href="#acceuil" onClick={() => setMenuOpen(false)}>ACCUEIL</a></li>
-                    <li><a href="#" onClick={() => setMenuOpen(false)}>À PROPOS</a></li>
+                    <li><a href="#apropos" onClick={() => setMenuOpen(false)}>À PROPOS</a></li>
                     <li><a href="#" onClick={() => setMenuOpen(false)}>SERVICES</a></li>
                     <li><a href="#" onClick={() => setMenuOpen(false)}>RÉALISATIONS</a></li>
                     <li><a href="#" onClick={() => setMenuOpen(false)}>CONTACT</a></li>

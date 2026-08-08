@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 import "./index.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       lg: text-2xl c'est pour les ordinateur */}
       <Navbar />
       <Hero />
+      <About />
     </div>
   );
 }
