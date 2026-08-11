@@ -1,6 +1,7 @@
+import { FaTools, FaFire } from "react-icons/fa";
 function Services() {
     return (
-        <section d="services" className="py-20 bg-gray-950 text-white">
+        <section id="services" className="py-20 bg-gray-950 text-white">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* Titre */}
@@ -20,10 +21,12 @@ function Services() {
 
                     {/* Chaudronnerie */}
                     <div className="bg-gray-900 p-8 rounded-xl">
-                        <h3 className="text-2xl font-bold">
-                            Chaudronnerie
-                        </h3>
-
+                        <div className="flex items-center grap-4">
+                            <FaTools className="text-yellow-500 text 5x1" />
+                            <h3 className="text-2xl font-bold">
+                                Chaudronnerie
+                            </h3>
+                        </div>
                         <p className="mt-4 text-gray-300">
                             Nous réalisons des travaux de chaudronnerie
                             adaptés aux besoins de nos clients, avec
@@ -33,10 +36,12 @@ function Services() {
 
                     {/* Soudure */}
                     <div className="bg-gray-900 p-8 rounded-xl">
-                        <h3 className="text-2xl font-bold">
-                            Soudure
-                        </h3>
-
+                        <div className="flex items-center grap-4">
+                            <FaFire className="text-yellow-500 text 5x1" />
+                            <h3 className="text-2xl font-bold">
+                                Soudure
+                            </h3>
+                        </div>
                         <p className="mt-4 text-gray-300">
                             Nous réalisons différents travaux de soudure
                             avec une attention particulière portée à la
