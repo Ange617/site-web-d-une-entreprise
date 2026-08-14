@@ -2,7 +2,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
-import Realisations from "./components/Realisations";
+import Realisation from "./components/Realisation";
+import Contact from "./components/Contact";
 import "./index.css";
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Realisation />
+      <Contact />
     </div>
   );
 }

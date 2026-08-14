@@ -9,7 +9,7 @@ function About() {
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src="public/about.jpg"
+              src="/about.jpg"
               alt="METALEX SARL"
               className="w-95 h-95 object-cover rounded-full"
             />

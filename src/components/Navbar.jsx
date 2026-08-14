@@ -28,8 +28,8 @@ function Navbar() {
                     <li><a href="#acceuil" onClick={() => setMenuOpen(false)}>ACCUEIL</a></li>
                     <li><a href="#apropos" onClick={() => setMenuOpen(false)}>À PROPOS</a></li>
                     <li><a href="#services" onClick={() => setMenuOpen(false)}>SERVICES</a></li>
-                    <li><a href="#" onClick={() => setMenuOpen(false)}>RÉALISATIONS</a></li>
-                    <li><a href="#" onClick={() => setMenuOpen(false)}>CONTACT</a></li>
+                    <li><a href="#realisation" onClick={() => setMenuOpen(false)}>RÉALISATIONS</a></li>
+                    <li><a href="#contact" onClick={() => setMenuOpen(false)}>CONTACT</a></li>
                 </ul>
             </nav>
         </>

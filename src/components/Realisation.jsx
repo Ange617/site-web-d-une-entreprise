@@ -1,6 +1,6 @@
 function Realisations() {
     return (
-        <section id="realisations" className="py-20 bg-gray-900 text-white">
+        <section id="realisation" className="py-20 bg-gray-900 text-white">
 
             <div className="max-w-7xl mx-auto px-6">
 
@@ -21,7 +21,7 @@ function Realisations() {
 
                     <div>
                         <img
-                            src=""
+                            src="/real1.jpg"
                             alt="Réalisation METALEX SARL"
                             className="w-full h-64 object-cover rounded-xl"
                         />
@@ -29,7 +29,7 @@ function Realisations() {
 
                     <div>
                         <img
-                            src=""
+                            src="/real2.jpg"
                             alt="Réalisation METALEX SARL"
                             className="w-full h-64 object-cover rounded-xl"
                         />
@@ -37,7 +37,7 @@ function Realisations() {
 
                     <div>
                         <img
-                            src=""
+                            src="/real3.jpg"
                             alt="Réalisation METALEX SARL"
                             className="w-full h-64 object-cover rounded-xl"
                         />
