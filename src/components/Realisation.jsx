@@ -6,48 +6,89 @@ function Realisations() {
 
                 {/* Titre qui presente*/}
                 <div className="text-center">
-                    <h2 className="text-4xl font-bold">
+                    <h2 className="text-4xl md:text-5xl font-bold mt-3d">
                         Nos Réalisations
                     </h2>
 
-                    <p className="mt-4 text-gray-300">
-                        Découvrez quelques-unes de nos réalisations
-                        en chaudronnerie et en soudure.
+                    <div className="w-20 h-1 bg-yellow-500 mx-auto mt-5"></div>
+
+                    <p className="mt-6 text-gray-400 max-w-2xl mx-auto">
+                        Découvrez quelques-unes de nos réalisations en
+                        chaudronnerie et en soudure.
                     </p>
                 </div>
+            </div>
 
-                {/* Galerie de photos*/}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+            {/* Galerie de photos*/}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
 
-                    <div>
-                        <img
-                            src="/real1.jpg"
-                            alt="Réalisation METALEX SARL"
-                            className="w-full h-64 object-cover rounded-xl"
-                        />
+                <div className="group relative overflow-hidden rounded-2xl">
+                    <img
+                        src="/real1.jpg"
+                        alt="Réalisation de METALEX SARL"
+                        className="w-full h-80 object-cover transition duration-500 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition duration-500 flex items-end">
+
+                        <div className="p-6 opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 className="text-xl font-bold">
+                                Soudure
+                            </h3>
+
+                            <p className="text-gray-300 mt-2">
+                                Travail de soudure professionnel
+                            </p>
+                        </div>
+
                     </div>
+                </div>
 
-                    <div>
-                        <img
-                            src="/real2.jpg"
-                            alt="Réalisation METALEX SARL"
-                            className="w-full h-64 object-cover rounded-xl"
-                        />
+                <div className="group relative overflow-hidden rounded-2xl">
+                    <img
+                        src="/real2.jpg"
+                        alt="Réalisation de METALEX SARL"
+                        className="w-full h-80 object-cover transition duration-500 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition duration-500 flex items-end">
+
+                        <div className="p-6 opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 className="text-xl font-bold">
+                                Projet métallique
+                            </h3>
+
+                            <p className="text-gray-300 mt-2">
+                                Une réalisation adaptée aux besoins du client
+                            </p>
+                        </div>
+
                     </div>
+                </div>
 
-                    <div>
-                        <img
-                            src="/real3.jpg"
-                            alt="Réalisation METALEX SARL"
-                            className="w-full h-64 object-cover rounded-xl"
-                        />
+                <div className="group relative overflow-hidden rounded-2xl">
+                    <img
+                        src="/real3.jpg"
+                        alt="Réalisation de METALEX SARL"
+                        className="w-full h-80 object-cover transition duration-500 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition duration-500 flex items-end">
+
+                        <div className="p-6 opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 className="text-xl font-bold">
+                                Chaudronnerie
+                            </h3>
+
+                            <p className="text-gray-300 mt-2">
+                                Réalisation métallique sur mesure
+                            </p>
+                        </div>
+
                     </div>
 
                 </div>
 
             </div>
 
-        </section>
+        </section >
     );
 }
 
