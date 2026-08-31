@@ -11,7 +11,7 @@ function About() {
             <div className="relative">
 
               {/* Petit cadre derrière l'image */}
-              <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-yellow-500 rounded-2xl"></div>
+              <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-blue-500 rounded-2xl"></div>
 
               <img
                 src="/about.jpg"
@@ -38,8 +38,8 @@ function About() {
 
             <div className="mt-8 flex items-center gap-4">
 
-              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-yellow-500/10 border border-yellow-500/30">
-                <span className="text-yellow-500 text-xl">
+              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500/10 border border-blue-500/30">
+                <span className="text-blue-500 text-xl">
                   ✓
                 </span>
               </div>

@@ -10,7 +10,7 @@ function Realisations() {
                         Nos Réalisations
                     </h2>
 
-                    <div className="w-20 h-1 bg-yellow-500 mx-auto mt-5"></div>
+                    <div className="w-20 h-1 bg-blue-500 mx-auto mt-5"></div>
 
                     <p className="mt-6 text-gray-400 max-w-2xl mx-auto">
                         Découvrez quelques-unes de nos réalisations en
@@ -26,7 +26,7 @@ function Realisations() {
                     <img
                         src="/real1.jpg"
                         alt="Réalisation de METALEX SARL"
-                        className="w-full h-80 object-cover transition duration-500 group-hover:scale-110"
+                        className="w-full h-80 md: h-96 object-cover transition duration-700 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition duration-500 flex items-end">
 
