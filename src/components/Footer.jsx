@@ -91,7 +91,8 @@ function Footer() {
                         <div className="flex gap-4 mt-6">
 
                             <a
-                                href="#"
+                                href="https://www.facebook.com/share/1H3wpskyjp/"
+                                target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-11 h-11 flex items-center justify-center rounded-full bg-gray-900 border border-gray-800 hover:border-[rgb(35,109,179)] hover:text-[rgb(35,109,179)] transition duration-300"
                             >
