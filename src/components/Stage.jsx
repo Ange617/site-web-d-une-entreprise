@@ -27,7 +27,8 @@ Je vais joindre mon CV dans cette conversation.`;
     };
     return (
         {/* Formulaire de stage */ }
-        < div  className ="max-w-5xl mx-auto bg-gray-900 border border-gray-800 rounded-2xl p-8 md:p-10" >
+        <>
+        < div  className = "max-w-5xl mx-auto bg-gray-900 border border-gray-800 rounded-2xl p-8 md:p-10" >
 
             <form
                 onSubmit={handleStageSubmit}
@@ -239,7 +240,7 @@ Je vais joindre mon CV dans cette conversation.`;
 
             </form>
       </div >
-    
+    </>
 );
 }
 export default Stage;
