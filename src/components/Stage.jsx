@@ -1,7 +1,33 @@
 function Stage() {
+    // Envoi du formulaire de stage vers WhatsApp
+    const handleStageSubmit = (e) => {
+        e.preventDefault();
+
+        const numeroWhatsApp = "237699793427";
+
+        const message = `Bonjour MET-ALEX,
+
+Je souhaite déposer une demande de stage.
+
+Nom complet : ${stage.nom}
+Téléphone : ${stage.telephone}
+Email : ${stage.email}
+Filière / Formation : ${stage.filiere}
+Niveau d'étude : ${stage.niveau}
+Durée souhaitée : ${stage.duree}
+
+Ma demande :
+${stage.message}
+
+Je vais joindre mon CV dans cette conversation.`;
+
+        const whatsappUrl = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(message)}`;
+
+        window.open(whatsappUrl, "_blank");
+    };
     return (
         {/* Formulaire de stage */ }
-        < div className = "max-w-5xl mx-auto bg-gray-900 border border-gray-800 rounded-2xl p-8 md:p-10" >
+        < div  className = "max-w-5xl mx-auto bg-gray-900 border border-gray-800 rounded-2xl p-8 md:p-10" >
 
             <form
                 onSubmit={handleStageSubmit}
@@ -212,6 +238,8 @@ function Stage() {
                 </div>
 
             </form>
-        </div >
-    );
+      </div >
+    
+);
 }
+export default Stage;
