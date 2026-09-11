@@ -38,9 +38,26 @@ function Realisations() {
                             className="w-full h-80 md:h-96 object-cover transition duration-700 group-hover:scale-110"
                         />
 
-                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition duration-500 flex items-end">
+                        <div
+                            className="
+                                absolute inset-0
+                                bg-black/60
+                                md:bg-black/0
+                                md:group-hover:bg-black/60
+                                transition duration-500
+                                flex items-end
+                            "
+                        >
 
-                            <div className="p-6 opacity-0 group-hover:opacity-100 transition duration-500">
+                            <div
+                                className="
+                                    p-6
+                                    opacity-100
+                                    md:opacity-0
+                                    md:group-hover:opacity-100
+                                    transition duration-500
+                                "
+                            >
 
                                 <h3 className="text-xl font-bold text-white">
                                     Soudure
@@ -65,9 +82,26 @@ function Realisations() {
                             className="w-full h-80 md:h-96 object-cover transition duration-700 group-hover:scale-110"
                         />
 
-                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition duration-500 flex items-end">
+                        <div
+                            className="
+                                absolute inset-0
+                                bg-black/60
+                                md:bg-black/0
+                                md:group-hover:bg-black/60
+                                transition duration-500
+                                flex items-end
+                            "
+                        >
 
-                            <div className="p-6 opacity-0 group-hover:opacity-100 transition duration-500">
+                            <div
+                                className="
+                                    p-6
+                                    opacity-100
+                                    md:opacity-0
+                                    md:group-hover:opacity-100
+                                    transition duration-500
+                                "
+                            >
 
                                 <h3 className="text-xl font-bold text-white">
                                     Projet métallique
@@ -92,9 +126,26 @@ function Realisations() {
                             className="w-full h-80 md:h-96 object-cover transition duration-700 group-hover:scale-110"
                         />
 
-                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition duration-500 flex items-end">
+                        <div
+                            className="
+                                absolute inset-0
+                                bg-black/60
+                                md:bg-black/0
+                                md:group-hover:bg-black/60
+                                transition duration-500
+                                flex items-end
+                            "
+                        >
 
-                            <div className="p-6 opacity-0 group-hover:opacity-100 transition duration-500">
+                            <div
+                                className="
+                                    p-6
+                                    opacity-100
+                                    md:opacity-0
+                                    md:group-hover:opacity-100
+                                    transition duration-500
+                                "
+                            >
 
                                 <h3 className="text-xl font-bold text-white">
                                     Chaudronnerie
