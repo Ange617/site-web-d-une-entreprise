@@ -1,12 +1,14 @@
 function About() {
   return (
-    <section id="apropos" className="py-20 bg-gray-900 text-white">
-
+    <section
+      id="apropos"
+      className="py-20 bg-slate-200 text-gray-900 dark:bg-gray-950 dark:text-white transition-colors duration-300"
+    >
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
 
-          {/* Image de coté */}
+          {/* Image de côté */}
           <div className="flex justify-center">
             <div className="relative">
 
@@ -22,17 +24,20 @@ function About() {
             </div>
           </div>
 
-          {/* Texte à coyé de l'image */}
+          {/* Texte à côté de l'image */}
           <div>
 
             <h2 className="text-4xl md:text-5xl mt-3 font-bold">
               À propos de METALEX SARL
             </h2>
 
-            <p className="mt-6 text-gray-300 text-lg leading-relaxed">
-              METALEX SARL  est une entreprise qui met son savoir-faire au service de la fabrication et de la transformation
-              de matériaux métallurgique de haute qualité. Nous concevons et réalisons des ouvrages métalliques solides, durables
-              et adaptés aux besoins des particuliers, des entreprises et des industries.<br /><br />
+            <p className="mt-6 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+              METALEX SARL est une entreprise qui met son savoir-faire au
+              service de la fabrication et de la transformation de matériaux
+              métallurgiques de haute qualité. Nous concevons et réalisons des
+              ouvrages métalliques solides, durables et adaptés aux besoins
+              des particuliers, des entreprises et des industries.
+              <br /><br />
               Vous satisfaire est notre priorité...
             </p>
 
@@ -49,7 +54,7 @@ function About() {
                   Qualité & savoir-faire
                 </h3>
 
-                <p className="text-gray-400 text-sm mt-1">
+                <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">
                   Des réalisations pensées pour durer.
                 </p>
               </div>
@@ -61,7 +66,6 @@ function About() {
         </div>
 
       </div>
-
     </section>
   );
 }

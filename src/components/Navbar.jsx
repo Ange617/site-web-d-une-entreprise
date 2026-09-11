@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import monLogo from "../assets/logo.png";
+import ThemeToggle from "./ThemeToggle";
 import "./NavbarStyles.css";
 
 function Navbar() {
@@ -26,6 +28,7 @@ function Navbar() {
                     <li><a href="#contact" onClick={() => setMenuOpen(false)}>CONTACT</a></li>
                 </ul>
 
+                <ThemeToggle />
                  <div
                     className="menu-icon"
                     onClick={() => setMenuOpen(!menuOpen)}
