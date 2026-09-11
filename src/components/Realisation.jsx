@@ -33,7 +33,7 @@ function Realisations() {
                     <div className="group relative overflow-hidden rounded-2xl shadow-lg">
 
                         <img
-                            src="/real1.jpg"
+                            src="/rea1.jpg"
                             alt="Réalisation de METALEX SARL"
                             className="w-full h-80 md:h-96 object-cover transition duration-700 group-hover:scale-110"
                         />
@@ -60,7 +60,7 @@ function Realisations() {
                     <div className="group relative overflow-hidden rounded-2xl shadow-lg">
 
                         <img
-                            src="/real2.jpg"
+                            src="/rea2.jpg"
                             alt="Réalisation de METALEX SARL"
                             className="w-full h-80 md:h-96 object-cover transition duration-700 group-hover:scale-110"
                         />
@@ -87,7 +87,7 @@ function Realisations() {
                     <div className="group relative overflow-hidden rounded-2xl shadow-lg">
 
                         <img
-                            src="/real3.jpg"
+                            src="/rea3.jpg"
                             alt="Réalisation de METALEX SARL"
                             className="w-full h-80 md:h-96 object-cover transition duration-700 group-hover:scale-110"
                         />

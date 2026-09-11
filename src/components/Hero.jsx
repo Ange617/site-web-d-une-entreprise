@@ -15,14 +15,16 @@ function Hero() {
       <div className="relative max-w-7xl mx-auto text-white text-center px-6 w-full">
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
-          METALEX SARL - La Touche Des Experts</h1>
+          METALEX SARL</h1>
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold">
+          La Touche Des Experts</h2>
 
         <p className="mt-5 text-lg sm:text-xl md:text-2xl">
           Votre partenaire en construction métallique. Fabrication d'ouvrage métallique.
-        </p> 
+        </p>
         <h2 className="mt-5 text-lg sm:text-xl md:text-2xl">Qualité - Fiabilité - Durabilité - Satisfaction garantie</h2>
         <br />
-        
+
       </div>
 
     </section>
